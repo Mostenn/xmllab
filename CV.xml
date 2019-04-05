@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<SkillsPassport locale="en">
+    <LearnerInfo>
+        <Identification>
+            <PersonName>
+                <FirstName>Cami-Viviana</FirstName>
+                <Surname>Ilie</Surname>
+            </PersonName>
+            <ContactInfo>
+                <Address>
+                    <Contact>
+                        <AddressLine>str.Izvor nr.17</AddressLine>
+                        <PostalCode>50561</PostalCode>
+                        <Municipality>Bucuresti</Municipality>
+                        <Country>
+                            <Code>RO</Code>
+                            <Label>România</Label>
+                        </Country>
+                    </Contact>
+                </Address>
+                <Email>
+                    <Contact>cami_viviana_ilie@yahoo.com</Contact>
+                </Email>
+                <TelephoneList>
+                    <Telephone>
+                        <Contact>+0721123456</Contact>
+                        <Use>
+                            <Code>mobile</Code>
+                            <Label>Mobil</Label>
+                        </Use>
+                    </Telephone>
+                </TelephoneList>
+            </ContactInfo>
+        </Identification>
+        <Headline>
+            <Type>
+                <Code>job_applied_for</Code>
+                <Label>LOCUL DE MUNCĂ PENTRU CARE SE CANDIDEAZĂ</Label>
+            </Type>
+            <Description>
+                <Label>Manager Resurse Umane</Label>
+            </Description>
+        </Headline>
+        <WorkExperienceList>
+            <WorkExperience>
+                <Period>
+                    <From year="2007" month="--03" day="---01"/>
+                    <Current>true</Current>
+                </Period>
+                <Position>
+                    <Label>Inspector resurse umane</Label>
+                </Position>
+                <Activities>&lt;p>Intocmirea documentelor de angajare(contract de munca, fisa cu date personale etc.)&lt;/p>&lt;p>Evidenta
+                    modificarilor intervenite in inregistrarea acestora in baze de date specifice&lt;/p>&lt;p>Evidenta
+                    si pastrarea dosarelor de personal&lt;/p>&lt;p>Eliberarea de adeverinte solicitate de angajati&lt;/p>
+                </Activities>
+                <Employer>
+                    <Name>S.C.Piramida SRL</Name>
+                    <ContactInfo>
+                        <Address>
+                            <Contact>
+                                <Municipality>Bucuresti</Municipality>
+                                <Country>
+                                    <Code>RO</Code>
+                                    <Label>România</Label>
+                                </Country>
+                            </Contact>
+                        </Address>
+                    </ContactInfo>
+                </Employer>
+            </WorkExperience>
+        </WorkExperienceList>
+        <EducationList>
+            <Education>
+                <Period>
+                    <From year="1994"/>
+                    <To year="1998"/>
+                    <Current>false</Current>
+                </Period>
+                <Title>Diploma Bacalaureat</Title>
+                <Organisation>
+                    <Name>Liceul Teoretic "Lucian Blaga"</Name>
+                    <ContactInfo>
+                        <Address>
+                            <Contact>
+                                <Municipality>Bucuresti</Municipality>
+                                <Country>
+                                    <Code>RO</Code>
+                                    <Label>România</Label>
+                                </Country>
+                            </Contact>
+                        </Address>
+                    </ContactInfo>
+                </Organisation>
+            </Education>
+            <Education>
+                <Period>
+                    <From year="1999"/>
+                    <To year="2003"/>
+                    <Current>false</Current>
+                </Period>
+                <Title>Diploma de Licenta</Title>
+                <Activities>&lt;p>Discipline studiate: Teorie Sociologice, Elementede drept, Introducere in marketing,
+                    Pedagogie, Sociologia deviantei, Sociologie politica, Sociologia organizatiilor, Opinia publica si
+                    comunicare&lt;/p>
+                </Activities>
+                <Organisation>
+                    <Name>Universitate din Bucuresti, Facultatea de Sociologie, Psihologie si Pedagogie,</Name>
+                    <ContactInfo>
+                        <Address>
+                            <Contact>
+                                <Municipality>Bucuresti</Municipality>
+                                <Country>
+                                    <Code>RO</Code>
+                                    <Label>România</Label>
+                                </Country>
+                            </Contact>
+                        </Address>
+                    </ContactInfo>
+                </Organisation>
+            </Education>
+            <Education>
+                <Period>
+                    <From year="2004"/>
+                    <To year="2004"/>
+                    <Current>false</Current>
+                </Period>
+                <Title>Certificat ECDL</Title>
+                <Activities>&lt;p>Aptitudini de baza de operare pe calculator/ administrarea fisierelor/ word/ excel/
+                    power point/ acces/ internet si posta electronica&lt;/p>
+                </Activities>
+                <Organisation>
+                    <Name>S.C. Training SRL</Name>
+                    <ContactInfo>
+                        <Address>
+                            <Contact>
+                                <Municipality>Bucuresti</Municipality>
+                                <Country>
+                                    <Code>RO</Code>
+                                    <Label>România</Label>
+                                </Country>
+                            </Contact>
+                        </Address>
+                    </ContactInfo>
+                </Organisation>
+            </Education>
+            <Education>
+                <Period>
+                    <From year="2004"/>
+                    <To year="2006"/>
+                    <Current>false</Current>
+                </Period>
+                <Title>Diploma de masterat</Title>
+                <Activities>&lt;p>Discipline studiate: Fundamente ale managementului resurselor umane, Testarea si
+                    evaluarea psihologica, Managementul schimbarii, Organizatii si comportament organizational, Dreptul
+                    muncii, Managementul performantii, Relatii industriale si negocierea conflictelor.&lt;/p>
+                </Activities>
+                <Organisation>
+                    <Name>Universitatea din Bucuresti, Facultatea de Sociologiesi asistenta sociala</Name>
+                    <ContactInfo>
+                        <Address>
+                            <Contact>
+                                <Municipality>Bucuresti</Municipality>
+                                <Country>
+                                    <Code>RO</Code>
+                                    <Label>România</Label>
+                                </Country>
+                            </Contact>
+                        </Address>
+                    </ContactInfo>
+                </Organisation>
+            </Education>
+        </EducationList>
+        <Skills>
+            <Linguistic>
+                <MotherTongueList>
+                    <MotherTongue>
+                        <Description>
+                            <Code>ro</Code>
+                            <Label>română</Label>
+                        </Description>
+                    </MotherTongue>
+                </MotherTongueList>
+                <ForeignLanguageList>
+                    <ForeignLanguage>
+                        <Description>
+                            <Label>engleza</Label>
+                        </Description>
+                        <ProficiencyLevel>
+                            <Listening>A2</Listening>
+                            <Reading>A2</Reading>
+                            <SpokenInteraction>A2</SpokenInteraction>
+                            <SpokenProduction>A2</SpokenProduction>
+                            <Writing>A2</Writing>
+                        </ProficiencyLevel>
+                    </ForeignLanguage>
+                    <ForeignLanguage>
+                        <Description>
+                            <Label>franceza</Label>
+                        </Description>
+                        <ProficiencyLevel>
+                            <Listening>A1</Listening>
+                            <Reading>A2</Reading>
+                            <SpokenInteraction>A1</SpokenInteraction>
+                            <SpokenProduction>A2</SpokenProduction>
+                            <Writing>A2</Writing>
+                        </ProficiencyLevel>
+                    </ForeignLanguage>
+                </ForeignLanguageList>
+            </Linguistic>
+            <Communication>
+                <Description>&lt;p>Capacitatea de argumentare si convingere, participind la dezbateri publice pe
+                    diferite teme de interes, organizate de diverse institutii&lt;/p>
+                </Description>
+            </Communication>
+            <Organisational>
+                <Description>&lt;p>O buna stapinire a instrumentelor MS Office - Cursuri de formare si lucru practic la
+                    locul de munca&lt;/p>
+                </Description>
+            </Organisational>
+            <JobRelated>
+                <Description>&lt;p>Familiarizarea cu instrumentele financiare specifice domeniului resurselor umane&lt;/p></Description>
+            </JobRelated>
+            <Driving>
+                <Description>
+                    <Licence>B</Licence>
+                </Description>
+            </Driving>
+        </Skills>
+    </LearnerInfo>
+</SkillsPassport>

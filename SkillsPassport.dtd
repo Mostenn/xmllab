@@ -1,0 +1,62 @@
+<!DOCTYPE SkillsPassport [
+        <!ELEMENT SkillsPassport (LearnerInfo)*>
+        <!ELEMENT LearnerInfo (Identification|Headline|WorkExperienceList|EducationList|Skills)*>
+        <!ELEMENT Identification (PersonName|ContactInfo)*>
+        <!ELEMENT PersonName (FirstName|Surname)*>
+        <!ELEMENT FirstName (#PCDATA)>
+        <!ELEMENT Surname (#PCDATA)>
+        <!ELEMENT ContactInfo (Address|Email|TelephoneList)*>
+        <!ELEMENT Address (Contact)*>
+        <!ELEMENT Contact (AddressLine ?,PostalCode ?,Municipality ?,Country ?)*>
+        <!ELEMENT AddressLine (#PCDATA)>
+        <!ELEMENT PostalCode (#PCDATA)>
+        <!ELEMENT Municipality (#PCDATA)>
+        <!ELEMENT Country (Code|Label)*>
+        <!ELEMENT Code (#PCDATA)>
+        <!ELEMENT Label (#PCDATA)>
+        <!ELEMENT Email (Contact)*>
+        <!ELEMENT TelephoneList (Telephone)*>
+        <!ELEMENT Telephone (Contact|Use)*>
+        <!ELEMENT Use (Code|Label)*>
+        <!ELEMENT Headline (Type|Description)*>
+        <!ELEMENT Type (Code|Label)*>
+        <!ELEMENT Description (Label|Code|Licence)*>
+        <!ELEMENT WorkExperienceList (WorkExperience)*>
+        <!ELEMENT WorkExperience (Period|Position|Activities|Employer)*>
+        <!ELEMENT Period (From|Current|To)*>
+        <!ELEMENT From (#PCDATA)>
+        <!ATTLIST From
+                day CDATA #IMPLIED
+                month CDATA #IMPLIED
+                year CDATA #REQUIRED>
+        <!ELEMENT Current (#PCDATA)>
+        <!ELEMENT Position (Label)*>
+        <!ELEMENT Activities (#PCDATA)>
+        <!ELEMENT Employer (Name|ContactInfo)*>
+        <!ELEMENT Name (#PCDATA)>
+        <!ELEMENT EducationList (Education)*>
+        <!ELEMENT Education (Period|Title|Organisation|Activities)*>
+        <!ELEMENT To (#PCDATA)>
+        <!ATTLIST To
+                year CDATA #REQUIRED>
+        <!ELEMENT Title (#PCDATA)>
+        <!ELEMENT Organisation (Name|ContactInfo)*>
+        <!ELEMENT Skills (Linguistic|Communication|Organisational|JobRelated|Driving)*>
+        <!ELEMENT Linguistic (MotherTongueList|ForeignLanguageList)*>
+        <!ELEMENT MotherTongueList (MotherTongue)*>
+        <!ELEMENT MotherTongue (Description)*>
+        <!ELEMENT ForeignLanguageList (ForeignLanguage)*>
+        <!ELEMENT ForeignLanguage (Description|ProficiencyLevel)*>
+        <!ELEMENT ProficiencyLevel (Listening|Reading|SpokenInteraction|SpokenProduction|Writing)*>
+        <!ELEMENT Listening (#PCDATA)>
+        <!ELEMENT Reading (#PCDATA)>
+        <!ELEMENT SpokenInteraction (#PCDATA)>
+        <!ELEMENT SpokenProduction (#PCDATA)>
+        <!ELEMENT Writing (#PCDATA)>
+        <!ELEMENT Communication (Description)*>
+        <!ELEMENT Organisational (Description)*>
+        <!ELEMENT JobRelated (Description)*>
+        <!ELEMENT Driving (Description)*>
+        <!ELEMENT Licence (#PCDATA)>
+        ]>
+
